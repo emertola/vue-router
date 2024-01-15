@@ -13,7 +13,7 @@ const viewContact = (path: string): void => {
 </script>
 
 <template>
-  <div>
+  <div v-if="selectedCar">
     <h1>Car View</h1>
     <p>{{ selectedCar?.name }}</p>
     <p>{{ selectedCar?.year }}</p>
@@ -25,5 +25,9 @@ const viewContact = (path: string): void => {
     <button type="button" @click="viewContact(`./${selectedCar?.id}/contact`)">View Contact</button>
 
     <RouterView />
+  </div>
+
+  <div v-else>
+    <h1>Car not found.</h1>
   </div>
 </template>
