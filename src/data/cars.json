@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota - Avanza",
+    "price": 1300000,
+    "year": 2023,
+    "contact": {
+      "dealer": "Win Tolamer",
+      "phone": "111-111-1111"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Suzuki - Ertiga",
+    "price": 975000,
+    "year": 2023,
+    "contact": {
+      "dealer": "Er Win",
+      "phone": "122-333-1111"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Honda - BR-V",
+    "price": 1075000,
+    "year": 2023,
+    "contact": {
+      "dealer": "Er Win",
+      "phone": "122-333-1111"
+    }
+  }
+]
